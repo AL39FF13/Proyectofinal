@@ -7,9 +7,13 @@
   <title>Mi aplicacion</title>
 
   <!--grupo CSS-->
-  <link rel="stylesheet" href="css/tae.min.css" />
+  <link rel="stylesheet" href="css/taekwondo.min.css" />
   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+  <link rel="stylesheet" href="css/miestilo.css" type="text/css" media="all"/>
+
+
+
         
         
 
@@ -30,22 +34,38 @@
   <div data-role="main" class="ui-content">
    
    <div align="center">
-   <a href="#Panel" data-transition="slidedown" class="ui-btn ui-icon-grid ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Menú</a>
+   <a href="#Panel" id="menu" data-transition="slidedown" class="ui-btn ui-icon-grid ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Menú</a>
    </div>
-   
+   <div data-role="content">	
+     <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="center">
+      <p> En esta aplicacion podras encontrar toda la informacion sobre el Taekwondo.
+      </p>
+      <p> ¡VAMOS! </p>
+      <div align="center">
+<img src="images/AMO.jpg" width="363" height="264">
+</div>
+     </div>
+	</div>
+
    <div  align="center" data-role="panel" data-position="left" id="Panel" data-display="overlay" > 
     <H1>¿Qué es el Tekwondo?</H1>
     
     <div>
-    <a href="#page2" class="ui-btn ui-icon-tae ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline "> Origen del Taekwondo </a>
+    <a href="#page2" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline "> Origen del Taekwondo </a>
     </div>
     <div>
     <a href="#page3" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Historia y Antecedentes </a>
     </div> 
+    
     <div>
     <a href="#page4" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Filosofía del Taekwondo</a>
     </div> 
    
+     <div> 
+ <a href="#page12" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">ITMD ATLIXCO</a>
+    </div> 
+   
+ 
      <div data-role="collapsible" data-collapsed="true">
     <h4>Grados Kup</h4>
     <ul data-role="listview">
@@ -54,7 +74,7 @@
         <li><a href="#page6">Grados y cinturones ITF  </a></li>
  </ul>
  </div>
-  
+ 
 
     <div data-role="collapsible" data-collapsed="true">
     <h4>Competición</h4>
@@ -67,6 +87,8 @@
  <a href="#page10" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Significado del color de las cintas  </a>
    </div>
    </div>
+   
+
   <div data-role="footer" data-position="fixed">
     <h1>@Mariana Sánchez Lagunas</h1>
   </div>
@@ -200,7 +222,7 @@ Un buen practicante de Taekwondo ha de ser siempre justo, de libre pensamiento, 
 
   </div>
    <div align="center">
-<img src="images/cinturones.jpg" width="363" height="264">
+<img src="images/wtf.jpg" width="363" height="264">
 </div>
 <a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
   <div data-role="footer" data-position="fixed">
@@ -239,7 +261,11 @@ Un buen practicante de Taekwondo ha de ser siempre justo, de libre pensamiento, 
 <p>7 º DAN - Negro (sajiun o maestro)</p>
 <p>8 º DAN - Negro (sajiun o maestro)</p>
 <p>9 º DAN - Negro (sasong o gran maestro)</p>
+
   </div>
+  <div align="center">
+<img  src="images/cinturones.jpg" width="363" height="264">
+</div>
 <a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
   <div data-role="footer" data-position="fixed">
     <h1>@Mariana Sánchez Lagunas</h1>
@@ -257,6 +283,9 @@ Un buen practicante de Taekwondo ha de ser siempre justo, de libre pensamiento, 
 
 <p>En las competiciones de técnica, el objetivo es demostrar la correcta ejecución de las diversas técnicas del Taekwondo, así como de las formas (pumses o tules). Los participantes deberán ejecutar las técnicas o las formas requeridas ante un jurado que puntuará su actuación teniendo en cuenta diversos aspectos como el ajuste, el foco, las posiciones, la respiración, los desplazamientos y las diferentes técnicas incluidas en las formas. En ocasiones también se incluye en las competiciones la rotura de tablones de madera u otros materiales con distintas técnicas de patada, puño o técnicas especiales (que normalmente consisten en patadas con salto en altura).</p>
   </div>
+  <div align="center">
+<img src="images/combate.jpg" width="363" height="264">
+</div>
 <a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
   <div data-role="footer" data-position="fixed">
     <h1>@Mariana Sánchez Lagunas</h1>
@@ -286,6 +315,9 @@ Puntúa cualquier ataque de patada o puño que golpee con fuerza el peto protect
 <p>En caso de que a un participante se le resten 5 puntos, es decir 10 "Kyongo" o 5 "Gam-Jeon", es automáticamente descalificado y pierde el combate.</p>
 
   </div>
+   <div align="center">
+<img src="images/tae.jpg"width="363" height="264">
+</div>
 <a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
   <div data-role="footer" data-position="fixed">
     <h1>@Mariana Sánchez Lagunas</h1>
@@ -318,6 +350,9 @@ En el caso de que un competidor cometa una infracción, el árbitro central deti
 Es obligatorio utilizar algunas protecciones establecidas por la federación o asociación que organice el combate. Normalmente se requiere el uso de guantes de polipropileno para los puños (llamados pads), así como botas protectoras con taloneras del mismo material para los pies. También suele ser obligatorio el uso de protector bucal y protector inguinal. El uso de rodilleras es opcional. En función del nivel de los participantes, se puede utilizar (aunque no es lo habitual) casco y peto protector, tibiales y protectores de antebrazos.
 </p>
   </div>
+   <div align="center">
+<img src="images/itf.jpg" width="363" height="264">
+</div>
   <a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
 
   <div data-role="footer" data-position="fixed">
@@ -345,8 +380,11 @@ Actualmente, la mayoría de las federaciones han variado estos colores, añadien
 En el caso de la WTF, por lo general, los grados KUP intermedios sólo se otorgan a practicantes de menos de 15 años. Los practicantes de más de 15 años normalmente obtienen directamente al grado superior sin pasar por el cinturón intermedio. No obstante, esto puede depender del dojang donde se practique. En el caso de ITF, el paso por los cinturones intermedios es obligatorio, aunque en caso de alumnos muy destacados, tienen la posibilidad de rendir dos cinturones en un mismo examen, siempre con autorización del instructor. En la WTF también se utiliza este método, pero eso depende del instructor.
 Después de superar el grado de cinta amarilla avanzada se le otorga en el cuello el color de su grado más su cinta al practicante.
 
-;</p>
+</p>
   </div>
+   <div align="center">
+<img src="images/significado.jpg" width="363" height="264">
+</div>
 <a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
   <div data-role="footer" data-position="fixed">
     <h1>@Mariana Sánchez Lagunas</h1>
@@ -370,5 +408,77 @@ Después de superar el grado de cinta amarilla avanzada se le otorga en el cuell
   </div>
  </div>  
  <!-- Page ONCE-->
+ <!-- Page doce -->
+  <div data-role="page" id="page12" >   
+  <div data-role="header">
+    
+<h1>ITMD ATLIXCO</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+   <p> Esta escuela es una de las mejores que puede haber ya que cuenta con una excelencia y un nivel en técnicas, patadas y todo lo que un buen taekwondoin necesite. Una cosa que la caracterisa es la HUMILDAD que existe en la misma</p>
+   <p> Instituto Técnico Marcial y Deportivo de Atlixco</p>
+   
+<p>Escuela de Iniciación, Formación y Desarrollo.</p>
+<p>Maestro José Luis Ramírez Osorio CN 7 DAN</p>
+</div>
+  <div align="center">
+<img src="images/index - itmdatlixco_files/Cintas Negras.jpeg" width="363" height="264">
+
+<img src="images/5212441180295-1417161454.jpg"width="363" height="264">
+
+<img src="images/index - itmdatlixco_files/1375961_727859053895154_767811218_n.jpg"width="363" height="264">
+<div class="mover"> </div> 
+
+<img src="images/telefono.jpg" id="girar" height="100" width="100"/>
+
+
+
+</div>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<div align="center">
+<p>Contactanos</p>
+
+<p>ITMD Central 3 Norte 1207
+Col. Ahuehuete Atlixco Puebla
+Mexico
+CP 74220
+Tel. (244) 4461688
+Llamanos y pide una clase Grátis para tus Niños.</p>
+<p>
+PAQUETE ESPECIAL.
+
+AL INSCRIBIRTE
+Incluye 1 mes
+y Uniforme grátis
+</p>
+</div>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<div align="center" >
+<h1> FOTOS DE ITMD </h1>
+<img src="images/10678656_706973372683973_8087855552910702343_n.jpg"""width="363" height="264">
+<img src="images/IMG_21531096214050.jpeg"width="363" height="264">
+<img src="images/10661725_10203041969025484_4472403179373264864_o.jpg"width="363" height="264">
+<img src="images/10687228_10203041972585573_8065022429810093654_n.jpg"width="363" height="264">
+<img src="images/FB_IMG_1422593404243.jpg"width="363" height="264">
+
+</div>
+
+  
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page doce-->
+ 
  </body>
 </html> 
