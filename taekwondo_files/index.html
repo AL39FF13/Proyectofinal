@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/taekwondo.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+  <link rel="stylesheet" href="css/miestilo.css" type="text/css" media="all"/>
+
+
+
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div align="center" data-role="header"><h1>Taekwondo</h1></div>
+
+  <div data-role="main" class="ui-content">
+   
+   <div align="center">
+   <a href="#Panel" id="menu" data-transition="slidedown" class="ui-btn ui-icon-grid ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Menú</a>
+   </div>
+   <div data-role="content">	
+     <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="center">
+      <p> En esta aplicacion podras encontrar toda la informacion sobre el Taekwondo.
+      </p>
+      <p> ¡VAMOS! </p>
+      <div align="center">
+<img src="images/AMO.jpg" width="363" height="264">
+</div>
+     </div>
+	</div>
+
+   <div  align="center" data-role="panel" data-position="left" id="Panel" data-display="overlay" > 
+    <H1>¿Qué es el Tekwondo?</H1>
+    
+    <div>
+    <a href="#page2" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline "> Origen del Taekwondo </a>
+    </div>
+    <div>
+    <a href="#page3" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Historia y Antecedentes </a>
+    </div> 
+    
+    <div>
+    <a href="#page4" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Filosofía del Taekwondo</a>
+    </div> 
+   
+     <div> 
+ <a href="#page12" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">ITMD ATLIXCO</a>
+    </div> 
+   
+ 
+     <div data-role="collapsible" data-collapsed="true">
+    <h4>Grados Kup</h4>
+    <ul data-role="listview">
+         <li><a href="#page11">¿Qué es?</a></li>
+        <li><a href="#page5">Grados y cinturones WTF</a></li>
+        <li><a href="#page6">Grados y cinturones ITF  </a></li>
+ </ul>
+ </div>
+ 
+
+    <div data-role="collapsible" data-collapsed="true">
+    <h4>Competición</h4>
+    <ul data-role="listview">
+        <li><a href="#page7"> ¿Qué es? </a></li>
+        <li><a href="#page8">Combate WTF </a></li>
+        <li><a href="#page9">Combate ITF </a></li>
+    </ul> 
+</div>
+ <a href="#page10" class="ui-btn ui-icon-navigation ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">Significado del color de las cintas  </a>
+   </div>
+   </div>
+   
+
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- Page dos -->
+  <div data-role="page" id="page2" >   
+  <div data-role="header">
+    <h1>Origen del Taekwondo</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>La palabra taekwondo proviene de los caracteres <a href="https://es.wikipedia.org/wiki/Hanja" title="Hanja">Hanja</a> 跆拳道 que significan:</p>
+    <ul>
+      <li><a href="https://es.wiktionary.org/wiki/%E8%B7%86" title="wikt:跆">跆</a> (<em>tae</em>, escrito 태 en <em><a href="https://es.wikipedia.org/wiki/Hangul" title="Hangul">hangul</a></em>): Técnicas que impliquen el uso de los pies. (patadas).</li>
+      <li><a href="https://es.wiktionary.org/wiki/%E6%8B%B3" title="wikt:拳">拳</a> (<em>kwon</em>, 권): Técnicas que impliquen el uso de los brazos (puño, hombro, mano).</li>
+      <li><a href="https://es.wiktionary.org/wiki/%E9%81%93" title="wikt:道">道</a> (<em>do</em>, 도): Camino de perfeccionamiento. Concepto filosófico oriental, conocido también como <em><a href="https://es.wikipedia.org/wiki/Tao" title="Tao">dao</a></em> o <em>tao</em> en chino y como <em>dō</em> en japonés.</li>
+    </ul>
+    <p>Por tanto, la palabra "Taekwondo" podría traducirse como «El camino de pies y manos», nombre que hace referencia a que es un estilo de combate que utiliza únicamente los pies, las manos y otras partes del cuerpo (como por ejemplo las rodillas y los codos), prescindiendo por completo del uso de armas.</p>
+  </div>
+   <div align="center">
+<img src="images/origen.jpg"idth="363" height="264">
+</div>
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas </h1>
+  </div>
+ </div>  
+ <!-- Page dos -->
+ 
+ <!-- Page tres -->
+  <div data-role="page" id="page3" >   
+  <div data-role="header">
+    <h1>Historia, Antecedentes y sus Características</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <p>En Corea, debido a su fuerte nacionalismo y resentimiento tras la ocupación japonesa (1910- 1945), y la Guerra de Corea (1950-1953), al ubicar los orígenes del taekwondo; se remontan al año 50 d.C., a la práctica del arte marcial nativo llamado taekkyon. La evidencia de su práctica fue hallada en tumbas antiguas por arqueólogos japoneses, donde algunas pinturas murales mostraban a dos hombres en una escena de pelea.6
+En aquella época se podían distinguir los antiguos tres reinos en Corea:</p>
+<p>
+<p>•	Goguryeo (37 a. C. - 668)</p>
+<p>•	Baekje (18 a. C. - 600)</p>
+<p>•	Silla (57 a. C. - 936)</p>
+</p>
+<p>
+Unode los militares de la dinastía Goguryeo desarrollaron un estilo de boxeo o arte marcial o "kempo coreano" basado en diversos estilos chinos, pero adaptados a sus propias necesidades. Era un estilo que daba mucha importancia a las patadas en lugar de los puñetazos. Este estilo de defensa personal sin armas es el denominado taekkyon. 
+</p>
+ <div align="center">
+<img src="images/historia.jpg" width="300" height="264">
+</div>
+<hr>
+<br>
+<br>
+<br>
+<br>
+ <h2> Características Generales</h2>
+  <p>Se  caracteriza por su amplio uso de las técnicas de pierna y patada, que son mucho  más variadas y tienen mayor protagonismo que en la mayoría de las artes  marciales. Asimismo, la depurada técnica de las mismas las hace destacar por su  gran rapidez y precisión.<br>
+    La  importancia dada a las técnicas de puño depende del estilo (ITTAF, ITF o WTF)  practicado, del entrenador y la escuela donde se practique. Actualmente, muchas  escuelas tienden a descuidar el entrenamiento de las técnicas de mano abierta y  puño, ya que su uso está cada vez más restringido en la competición, dándole  más puntaje a los pies. No obstante, un buen entrenamiento debe incluir tanto  las técnicas de mano como las técnicas de pierna del Taekwondo, ya que no debe  estar enfocado únicamente al éxito en la competición sino al dominio y  conocimiento del arte marcial.<br>
+    Todo  esto, hace que el Taekwondo sea un arte marcial especialmente efectivo en la  lucha en pie, destacando así frente a otras artes marciales en la distancia  larga, donde se puede aprovechar mejor la fuerza explosiva, la velocidad de  concatenación / combinación de técnicas de piernas que desarrollan sus  practicantes y el sin olvidar la respiración y la meditación.</p>
+  </div>
+   <div align="center">
+<img src="taekwondo_files/220px-Exhibicion_dollyo_chagui_con_apoyo.jpg" width="363" height="264">
+</div>
+ 
+ <a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page tres -->
+ 
+ <!-- Page cuatro -->
+  <div data-role="page" id="page4" >   
+  <div data-role="header">
+    <h1>Filosofía del Taekwondo</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+<p>La filosofía del Taekwondo se basa en cinco principios derivados de las filosofías chinas del confucionismo, el taoismo, influenciadas en gran parte por el nacionalismo coreano; estos son: cortesía, integridad, perseverancia, autocontrol y espíritu indomable. Sin embargo, los valores de Amor fraternal y Ciencia se incluyen en la formación infantil.</p>
+
+<p>•	Cortesía (Ye Ui)
+Es un principio fundamental dentro y fuera del Taekwondo, que tiene como objetivo hacer destacar al ser humano manteniendo una sociedad armoniosa. Los practicantes de Taekwondo deben construir un carácter noble, así como entrenar de una manera ordenada y disciplinada.</p>
+
+<p>•	Integridad moral (Yom Chi)
+Es muy importante saber establecer los límites entre lo bueno y lo malo así como saber reconocer cuando se ha hecho algo malo y redimirse por ello. Por ejemplo, en un estudiante que se niega a recibir consejo o aprender de otro estudiante más experto, o en un practicante que pide un grado a su maestro no hay integridad.</p>
+
+<p>•	Perseverancia (In Nae)</p>
+<p>	La Paciencia conduce a la virtud o al mérito.</p>
+<p>    La felicidad o la prosperidad suelen ser alcanzadas por la persona que es paciente. Para poder alcanzar un objetivo, ya sea promocionar a un grado superior o perfeccionar una técnica, se ha de ser perseverante. Es fundamental el sobrepasar cada dificultad con la perseverancia.</p>
+<p>•	Uno que es impaciente en cosas triviales o que no le gusta el arte marcial, puede difícilmente alcanzar el éxito en asuntos de gran importancia.</p>
+<p>
+<p>•	Autocontrol (Guk Gi)
+El autocontrol es de vital importancia tanto dentro como fuera del dojang, tanto en el combate como en los asuntos personales. Un buen practicante de Taekwondo no permitirá que la ira o el miedo dominen su acción. En combate, la falta de autocontrol puede provocar graves consecuencias tanto para el alumno como para su oponente. Asimismo, se ha de ser capaz de vivir y trabajar dentro de las propias capacidades. Cabe destacar que el alumno no puede ser agresivo dentro o fuera del gimnasio, ni llevar una vida descontrolada (alcohol, drogas...)
+•	No es más fuerte aquel que es capaz de vencer a los demás, sino aquel que es capaz de vencerse a sí mismo.</p>
+
+<p>•	Espíritu indomable (Baekjul Boolgool)
+Un buen practicante de Taekwondo ha de ser siempre justo, de libre pensamiento, modesto y honrado, sin permitir que corrompan sus valores, sin permitir que sus pensamientos y pasiones sean sometidos por terceros, sin someter a otros ni inculcarles ideas equívocas o negativas. Mantendrá la confianza en si mismo. Ante una injusticia, actuará con espíritu combativo, sin miedo, sin dudarlo y sin evitar la confrontación por causa de quién o quienes se haya de enfrentar cuando dicha confrontación sea necesaria.</p>
+
+</div>
+ <div align="center">
+<img src="images/filosofia.gif"width="363" height="264">
+</div>
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page cuatro -->
+ 
+ <!-- Page cinco -->
+  <div data-role="page" id="page5" >   
+  <div data-role="header">
+    <h1>Grados y cinturones WTF</h1> 
+    </div>
+
+
+  <div data-role="main" class="ui-content"> 
+  
+ <p>•	Blanco (10mo. Kup)</p>
+<p>•	Blanco punta amarilla (9no. Kup)</p>
+<p>•	Amarillo (8vo. Kup)</p>
+<p>•	Amarillo punta verde (7mo. Kup) </p>
+<p>•	Verde (6to. Kup)</p>
+<p>•	Verde punta azul (5to. Kup)</p>
+<p>•	Azul (4to. Kup)</p>
+<p>•	Azul punta roja (3er. Kup)</p>
+<p>•	Rojo (2do. Kup)</p>
+<p>•	Rojo punta negra (1er. Kup)</p>
+<p>•	Negro o rojinegro si eres menor de 15 años</p>
+
+  </div>
+   <div align="center">
+<img src="images/wtf.jpg" width="363" height="264">
+</div>
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas </h1>
+  </div>
+ </div>  
+ <!-- Page cinco -->
+ 
+ <!-- Page seis -->
+  <div data-role="page" id="page6" >   
+  <div data-role="header">
+    <h1>Grados y cinturones ITF</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>En ITF los cinturones ordenados de más inexperto a más experto son:</p>
+
+<p>10° KUP Cinturón blanco</p>
+<p>9° KUP Cinturón blanco punta amarilla</p>
+<p>8° KUP Cinturón amarillo</p>
+<p>7 ° KUP Cinturón amarillo punta verde</p>
+<p>6 ° KUP Cinturón verde</p>
+<p>5 ° KUP Cinturón verde punta azul</p>
+<p>4 ° KUP Cinturón azul</p>
+<p>3 ° KUP Cinturón azul punta roja</p>
+<p>2 ° KUP Cinturón rojo</p>
+<p>1 ° KUP Cinturón rojo punta negra</p>
+<p>UP Cinturón rojo punta negra</p>
+
+<p>1 º DAN - Negro (bu sabon nim o instructor)</p>
+<p>2 º DAN - Negro (bu sabon nim o instructor)</p>
+<p>3 º DAN - Negro (bu sabon nim o instructor)</p>
+<p>4 º DAN - Negro (sabon nim o instructor mayor)</p>
+<p>5 º DAN - Negro (sabon nim o instructor mayor)</p>
+<p>6 º DAN - Negro (sabon nim o instructor mayor)</p>
+<p>7 º DAN - Negro (sajiun o maestro)</p>
+<p>8 º DAN - Negro (sajiun o maestro)</p>
+<p>9 º DAN - Negro (sasong o gran maestro)</p>
+
+  </div>
+  <div align="center">
+<img  src="images/cinturones.jpg" width="363" height="264">
+</div>
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page seis-->
+  <!-- Page SIETE-->
+  <div data-role="page" id="page7" >   
+  <div data-role="header">
+    <h1>¿Qué es?</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>En Taekwondo existen competiciones tanto de combate deportivo, y más recientemente de técnica o formas, al ser considerad un deporte de arte y combate, no solo de contacto.</p>
+
+<p>En las competiciones de técnica, el objetivo es demostrar la correcta ejecución de las diversas técnicas del Taekwondo, así como de las formas (pumses o tules). Los participantes deberán ejecutar las técnicas o las formas requeridas ante un jurado que puntuará su actuación teniendo en cuenta diversos aspectos como el ajuste, el foco, las posiciones, la respiración, los desplazamientos y las diferentes técnicas incluidas en las formas. En ocasiones también se incluye en las competiciones la rotura de tablones de madera u otros materiales con distintas técnicas de patada, puño o técnicas especiales (que normalmente consisten en patadas con salto en altura).</p>
+  </div>
+  <div align="center">
+<img src="images/combate.jpg" width="363" height="264">
+</div>
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page SIETE-->
+  <!-- Page OCHO-->
+  <div data-role="page" id="page8" >   
+  <div data-role="header">
+    <h1>Combate WTF</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>El reglamento de la WTF es el que se utiliza en las olimpiadas. </p>
+    
+<p>El combate se divide en 3 rondas ininterrumpidas, con descanso entre ellas. Los participantes que ostentan grados KUP realizan 3 rondas de 1 minuto con 30 segundos de descanso entre ellas, mientras que los grados DAN realizan 3 rondas de 2 minutos con 1 minuto de descanso entre cada una. Es obligatorio que los competidores utilicen un Dobok adecuado, así como un peto protector (llamado hogu) que diferenciará a los dos competidores por su color rojo o azul. También es obligatorio el uso de un casco reglamentario que proteja la cabeza y un protector bucal para los dientes, así como protectores para los antebrazos, espinilleras, protectores para los empeines, taloneras, protección de las rodillas, guantes y protector genital (coquilla).
+</p>
+<p>Resulta ganador el competidor que tras las tres rondas haya sumado más cantidad de puntos, haya lesionado gravemente al oponente o haya conseguido el KO que raramente se produce en combates deportivos WTF (uno de los combatientes cae y tras la cuenta de diez segundos el competidor no se levanta del tapiz). Anteriormente existía una regla que dictaba la eliminación del competidor en caso de que perdiera por diferencia de 7 puntos o más. Esta regla ha sido eliminada ya que actualmente la diferencia es de 13.
+Puntúa cualquier ataque de patada o puño que golpee con fuerza el peto protector (hogu) o cualquier ataque de patada que golpee con fuerza la cabeza o en raras ocasiones la parte superior de la tráquea. Los ataques deben hacer contacto total con la zona adecuada del adversario y llevar fuerza suficiente como para causar desplazamiento del cuerpo o la cabeza. No se permiten ataques de puño a la cabeza ni ataques por debajo de la cintura.
+</p>
+<p>Las patadas al peto protector puntúan 1 punto, 2 puntos en el caso de que sea efectuada mediante un giro, mientras que los ataques a la cabeza valen 3 puntos, 4 cuando son efectuadas con giro y 5 cuando la patada se efectúa con dos giros y consigue golpear el casco. Hasta hace poco los ataques con giro no tenían puntuación especial, así como las patadas a la cabeza solo valían 2 puntos. También se sumaba un punto "de cuenta de protección" si un ataque había aturdido al oponente. Estas últimas medidas se eliminaron hace poco. Los puñetazos se limitan tan solo al peto, y deben ser efectuados de abajo hacia arriba acabando el golpe en el peto, que dado el caso, valdrá solo un punto. En caso de KO, el atacante gana el combate.</p>
+<p> 
+<p>El sistema de puntuación se lleva mediante unos petos electrónicos, que suben al marcador los impactos recibidos. En caso de golpe a la cabeza o con giro, se detiene el combate para que el árbitro central lo comunique o el coach lo reclame (en caso de que no lo haga el árbitro central)</p>
+<p>El sistema de puntuación se lleva mediante unos petos electrónicos, que suben al marcador los impactos recibidos. En caso de golpe a la cabeza o con giro, se detiene el combate para que el árbitro central lo comunique o el coach lo reclame (en caso de que no lo haga el árbitro central)</p>
+<p>•	Puede suponer Kyongo: caerse; evitar el combate; agarrar, bloquear o empujar al oponente; ataques por debajo de la cintura; golpear o bloquear con la rodilla; dar más de 2 pasos en línea recta hacia atrás evadiendo el combate; por no hacer combate ninguno de los dos durante un tiempo de 10 segundos.</p>
+<p>•	Algunos de los motivos de Gam-Jeon son: Evadir un ataque dando la espalda al adversario; ataques por debajo de la cintura repetidamente; intentar lesionar al contrincante. Atacar al oponente cuando la ronda ha acabado; golpear la cara del oponente con la mano; atacar a un oponente derribado; golpear intencionadamente la cara del adversario con la mano.</p>
+<p>En caso de que a un participante se le resten 5 puntos, es decir 10 "Kyongo" o 5 "Gam-Jeon", es automáticamente descalificado y pierde el combate.</p>
+
+  </div>
+   <div align="center">
+<img src="images/tae.jpg"width="363" height="264">
+</div>
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page OCHO-->
+  <!-- Page NUEVE-->
+  <div data-role="page" id="page9" >   
+  <div data-role="header">
+    <h1>Combate ITF</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Combate ITF:</p>
+    
+<p>Para las competiciones de combate, existen diferentes categorías según el grado, peso y la edad de los competidores. El reglamento de lucha,15 es similar al full-contact.
+El combate se lleva a cabo en un cuadrilátero de 8 X 8 m sin cuerdas ni delimitación física (al contrario que los rings de boxeo) Dependiendo de la categoría y el nivel de la competición, se pueden realizar de 1 a 3 rondas de entre 1 y 3 min, resultando ganador el competidor que al final de las tres rondas sume más puntos.
+Los puntos son contados por cuatro jueces que se ubican en una esquina del cuadrilátero cada uno. El sistema de puntuación es el siguiente:</p>
+
+<p>•	Técnica de un (1) punto: golpe de puño a cualquier zona permitida</p>
+<p>•	Técnica de dos(2) puntos: golpe con el pie a la zona del torso</p>
+<p>•	Técnica de tres (3) puntos: golpe con el pie a la zona de la cabeza</p>
+<p>Sólo se permite golpear la parte frontal del cuerpo (desde la cintura a la parte inferior del cuello) y de la cabeza. Se penaliza el acto de golpear intencionadamente al oponente en la espalda o la parte trasera de la cabeza. No se permite golpear con la rodilla, la tibia o el codo (sólo si es con la parte inferior).</p>
+<p>
+Los golpes pueden ser ejecutados con la máxima potencia, no deben tener intención de KO. En caso de que este hecho se produjese fortuitamente durante el combate, el presidente de mesa debe decidir si el competidor que lo llevó a cabo debe ser descalificado o no.
+No se permiten agarres, barridos, luxaciones ni proyecciones. No se toleran actitudes o gestos irrespetuosos, provocativos, ofensivos o agresivos hacia otros competidores, golpes fuera de tiempo (cuando el arbitro dice que se detenga la pelea).</p>
+<p>
+En el caso de que un competidor cometa una infracción, el árbitro central detiene el combate y el infractor recibe un aviso. Tres avisos suponen la deducción de un punto al finalizar el combate. Ante una infracción de mayor gravedad, el árbitro puede descontar puntos directamente o incluso descalificar a un competidor.</p>
+<p>
+Es obligatorio utilizar algunas protecciones establecidas por la federación o asociación que organice el combate. Normalmente se requiere el uso de guantes de polipropileno para los puños (llamados pads), así como botas protectoras con taloneras del mismo material para los pies. También suele ser obligatorio el uso de protector bucal y protector inguinal. El uso de rodilleras es opcional. En función del nivel de los participantes, se puede utilizar (aunque no es lo habitual) casco y peto protector, tibiales y protectores de antebrazos.
+</p>
+  </div>
+   <div align="center">
+<img src="images/itf.jpg" width="363" height="264">
+</div>
+  <a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page NUEVE-->
+  <!-- Page DIEZ-->
+  <div data-role="page" id="page10" >   
+  <div data-role="header">
+    <h1> Significa del color de las cintas</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Estos seis colores originales no fueron elegidos arbitrariamente, sino que cada uno tiene un significado simbólico y tradicional.</p>
+    <p>
+•	Blanco: "Simboliza la inocencia", es decir la falta de conocimientos y habilidades del practicante que recién inicia la disciplina. La constancia y la perseverancia harán que la inocencia dé lugar, con el paso del tiempo, a la experiencia y maestría.</p>
+<p>•	Amarillo: "Simboliza la tierra", donde se siembra la semilla en espera de la planta que crecerá. De la misma manera, los fundamentos del TKD, son la semilla que comienza a germinar al estudiante.</p>
+<p>•	Verde: "Simboliza la planta renacida", que crece y se arraiga firmemente. De la misma manera del TAEKWONDO prende en la conciencia del estudiante echando en su interior verdaderas raíces que lo fortalecen.</p>
+<p>•	Azul: "Simboliza al cielo", hacia el cual la planta a medida que crece y madura, se dirige. De la misma manera el estudiante, comienza a madurar, por lo tanto sabe que su meta es el conocimiento y hacia allí se dirige.</p>
+<p>•	Rojo: "Simboliza el peligro". Tus habilidades se desarrollan cada vez más, pero aún debes aprender mucho acerca del dominio de ti mismo.Es el color del fruto maduro, del cielo en el atardecer, del deseo de quien se prepara para la perfección de su arte.
+Punta negra.</p>
+<p>•	Negro: "Simboliza lo opuesto al blanco", es decir, representa la madurez y el conocimiento. Indica también lo imprevisible de la oscuridad que se le presenta al practicante al darse cuenta que no ha culminado su aprendizaje, sino por el contrario, este recién comienza, a través de los Danés intentará acercarse a la perfección.</p>
+Actualmente, la mayoría de las federaciones han variado estos colores, añadiendo algunos intermedios o sustituyendo alguno de los existentes. En algunas federaciones americanas, existen dos colores más de cinturón (morado y marrón). En algunas federaciones de España (por ejemplo, la madrileña) se ha añadido el cinturón marrón por el rojo. Sin embargo, el cinturón de 1º GUP, así como los cinturones de grados PUM mantienen el color rojo-negro.
+En el caso de la WTF, por lo general, los grados KUP intermedios sólo se otorgan a practicantes de menos de 15 años. Los practicantes de más de 15 años normalmente obtienen directamente al grado superior sin pasar por el cinturón intermedio. No obstante, esto puede depender del dojang donde se practique. En el caso de ITF, el paso por los cinturones intermedios es obligatorio, aunque en caso de alumnos muy destacados, tienen la posibilidad de rendir dos cinturones en un mismo examen, siempre con autorización del instructor. En la WTF también se utiliza este método, pero eso depende del instructor.
+Después de superar el grado de cinta amarilla avanzada se le otorga en el cuello el color de su grado más su cinta al practicante.
+
+</p>
+  </div>
+   <div align="center">
+<img src="images/significado.jpg" width="363" height="264">
+</div>
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+
+ <!-- Page DIEZ-->
+ <!-- Page ONCE-->
+  <div data-role="page" id="page11" >   
+  <div data-role="header">
+    <h1> ¿Qué es?</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+ <p>Los grados kup son los grados más básicos del taekwondo. Siguen una numeración inversa, por lo que un alumno que acabe de empezar a practicar taekwondo, ostentará el 10º GUP, mientras que un alumno que esté a punto de obtener el cinturón negro (1º DAN) tendrá el 1º KUP. Aunque los grados fueron tomados asímismo del kárate japonés, el sistema por grados de cinturones fue implantado por el Judo, a principios del siglo XX.</p>
+  </div>
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page ONCE-->
+ <!-- Page doce -->
+  <div data-role="page" id="page12" >   
+  <div data-role="header">
+    
+<h1>ITMD ATLIXCO</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+   <p> Esta escuela es una de las mejores que puede haber ya que cuenta con una excelencia y un nivel en técnicas, patadas y todo lo que un buen taekwondoin necesite. Una cosa que la caracterisa es la HUMILDAD que existe en la misma</p>
+   <p> Instituto Técnico Marcial y Deportivo de Atlixco</p>
+   
+<p>Escuela de Iniciación, Formación y Desarrollo.</p>
+<p>Maestro José Luis Ramírez Osorio CN 7 DAN</p>
+</div>
+  <div align="center">
+<img src="images/index - itmdatlixco_files/Cintas Negras.jpeg" width="363" height="264">
+
+<img src="images/5212441180295-1417161454.jpg"width="363" height="264">
+
+<img src="images/index - itmdatlixco_files/1375961_727859053895154_767811218_n.jpg"width="363" height="264">
+<div class="mover"> </div> 
+
+<img src="images/telefono.jpg" id="girar" height="100" width="100"/>
+
+
+
+</div>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<div align="center">
+<p>Contactanos</p>
+
+<p>ITMD Central 3 Norte 1207
+Col. Ahuehuete Atlixco Puebla
+Mexico
+CP 74220
+Tel. (244) 4461688
+Llamanos y pide una clase Grátis para tus Niños.</p>
+<p>
+PAQUETE ESPECIAL.
+
+AL INSCRIBIRTE
+Incluye 1 mes
+y Uniforme grátis
+</p>
+</div>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<div align="center" >
+<h1> FOTOS DE ITMD </h1>
+<img src="images/10678656_706973372683973_8087855552910702343_n.jpg"""width="363" height="264">
+<img src="images/IMG_21531096214050.jpeg"width="363" height="264">
+<img src="images/10661725_10203041969025484_4472403179373264864_o.jpg"width="363" height="264">
+<img src="images/10687228_10203041972585573_8065022429810093654_n.jpg"width="363" height="264">
+<img src="images/FB_IMG_1422593404243.jpg"width="363" height="264">
+
+</div>
+
+  
+<a href="#principal" class="ui-btn ui-icon-home ui-btn-icon-right ui-shadow ui-corner-all ui-btn-inline ">INICIO </a>
+  <div data-role="footer" data-position="fixed">
+    <h1>@Mariana Sánchez Lagunas</h1>
+  </div>
+ </div>  
+ <!-- Page doce-->
+ 
+ </body>
+</html> 
